@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+  margin:0;
+
+}
+//Navigation menu
+nav{
+  background-color:#f7f7ff;
+  width:100%;
+  height:65px;
+  position:relative;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3); 
+  min-width:340px;
+  transition:all .55s cubic-bezier(.17,.67,.16,.99);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.nav-hidden{
+  height:65px;
+}
+.nav{
+  height:438px;
+}
+.logo{
+  width:200px;
+  height:65px;
+  line-height:65px;
+  font-size:1.4em;
+  font-family: 'Poor Story', cursive;
+  text-align:center;
+  display:inline-block;
+  color:#7E3E97;
+  font-weight:700;
+  cursor:pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+.logo:hover{
+  background: linear-gradient(to right, #7e3e97, #00aae7, #e66333 80%);
